@@ -11,7 +11,7 @@ function handleSlow() {
         video.playbackRate = video.playbackRate / 2;
         return;
     }
-    alert("Video is at slowest speed!");
+    window.alert("Video is at slowest speed!");
     return;
 }
 
@@ -20,7 +20,7 @@ function handleFast() {
         video.playbackRate = video.playbackRate * 2;
         return;
     }
-    alert("Video is at fastest speed!");
+    window.alert("Video is at fastest speed!");
     return;
 }
 
